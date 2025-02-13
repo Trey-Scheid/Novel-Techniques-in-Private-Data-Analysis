@@ -1,26 +1,36 @@
-# Novel Techniques in Private Data Analysis
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This project repo is a part of an HDSI Data Science Capstone prohject (link) by names ____. The goal of the project is to privatize common data tasks using an example domain: Telemetry!
+## Getting Started
 
-## Data Access:
+First, run the development server:
 
-Much of the data is not accessible to the public domain due to confidentiality. You may run the project on a synthetic demo dataset (follow Demo), or view our resulting plots without running the code (follow 'run.py')
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Running the project
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-* To install the dependencies, run the following command from the root directory of the project: `pip install -r requirements.txt`
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Learn More
 
-### Demo
+To learn more about Next.js, take a look at the following resources:
 
-* To run the demo on your local machine...
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-  
-### Building the project stages using `run.py`
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-* To run the file, in your terminal, run `python run.py [target arguments]`.
-    * List of target arguments: `gd`, `sgd`, `ftrlm`, `objpert`, `outpert`.
-* Some of the methods take a while to train to effectively compare the data. If you use no arguments,
-the script will run all five methods. If you include one or more arguments, the script will only run
-the methods inputted into the target arguments.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
